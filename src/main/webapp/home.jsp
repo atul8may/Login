@@ -7,6 +7,11 @@
 <title>Home</title>
 </head>
 <body>
-
+    <table align ="center">
+        <tr>
+           <td><a href="login">Login</a>
+           <td><a href="register">Register</a>
+        </td>
+    </table>
 </body>
 </html>
