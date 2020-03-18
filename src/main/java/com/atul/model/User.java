@@ -9,6 +9,7 @@ public class User {
 	  private String address;
 	  private int phone;
 	  
+	  
 	  //setter and getter
 	  
 	public String getUsername() {
