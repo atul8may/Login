@@ -10,7 +10,8 @@
 <body>
 
 	<form:form id="loginForm" modelAttribute="login" action="loginProcess" method="post">
-	   <table align="center">
+	
+	   <table align ="center">
 	       <tr>
 	           <td>
 	               <form:label path="username">Username: </form:label>
@@ -29,7 +30,7 @@
            </tr>
            <tr>
               <td></td>
-              <td align="left">
+              <td style="text-align: left;">
                   <form:button id="login" name="login">Login</form:button>
               </td>
            </tr>
@@ -39,6 +40,7 @@
               <td><a href="home.jsp">Home</a></td>
            </tr>
 	 </table>
+	 
 	</form:form>
     <table align ="center">
         <tr>
